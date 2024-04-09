@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+.active {
+    @apply border-orange-500
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    z-index: -1;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d8d8d8;
+    opacity: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c9c9c9;
+    opacity: 10px;
+    border-radius: 10px;
+}
+
